@@ -9,7 +9,7 @@ data_hoje = datetime.now()
 data_ontem = data_hoje - timedelta(days=1)
 
 #Verifique se a data do dia anterior é um dia(segunda a sexta-feira)
-while data_ontem.weekday() not in [0, 1, 2, 3, 4]:
+while data_ontem.weekday() >= 5: # 5 representa sábado e 6 representa domingo
     data_ontem -= timedelta(days=1)
 
 pasta_ontem = data_ontem.strftime("%Y%m%d")
