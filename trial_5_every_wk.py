@@ -27,7 +27,7 @@ pasta_origem = os.path.join(pasta_files, pasta_ontem, 'Curves')
 pasta_destino = 'O:/_Hedge Accounting/RM/Source_BMF/TaxaSwap'  # Substitua pelo caminho desejado
 
 # Nome do arquivo a ser copiado
-nome_arquivo = f'Curves_CurvesFile_{pasta_ontem}_1.txt'
+nome_arquivo = f'Curves_CurveFile_{pasta_ontem}_1.txt'
 caminho_arquivo_txt = os.path.join(pasta_origem, nome_arquivo)
 
 # Verifique se a pasta de origem e o arquivo existem
