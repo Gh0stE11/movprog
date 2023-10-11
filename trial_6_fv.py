@@ -17,7 +17,7 @@ pasta_ontem = data_ontem.strftime("%Y%m%d")
 # Caminho da pasta de origem e destino
 pasta_files = 'S:/Files'
 pasta_origem = os.path.join(pasta_files, pasta_ontem, 'Curves')
-pasta_destino = 'C:/Users/caio.ishizu/OneDrive - Capitania S.A/Documentos/html project'  # Substitua pelo caminho desejado
+pasta_destino = 'O:/_Hedge Accounting/RM/Source_BMF/TaxaSwap'  # Substitua pelo caminho desejado
 
 # Nome do arquivo a ser copiado
 nome_arquivo = f'Curves_CurveFile_{pasta_ontem}_1.txt'
